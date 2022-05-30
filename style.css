@@ -59,14 +59,33 @@ button {
     width: 400px;
     height: 100px;
 }
-.sideBtn {
-    display:;
-    width: 100px;
-    height: 60px;
-    background-color:rgb(184, 184, 188);
-    margin: 5px;
-    text-align: center;
+.leftBtns {
+    display:flex;
+    width: 50px;
+    height: 40px;
+    background-color:rgb(8, 8, 130);
+    margin: 30%;
     border: solid black;
+    border-radius: 8%;
+}
+
+#moveBtn {
+    position: absolute;
+    margin-top: 30%;
+}
+.rightBtns {
+    display:flex;
+    width: 50px;
+    height: 40px;
+    background-color:rgb(8, 8, 130);
+    margin: 30%;
+    border: solid black;
+    border-radius: 8%;
+}
+#moveOBtn {
+    position: absolute;
+    margin-left: 86%;
+    margin-top: 30%;
 }
 
 #total {
