@@ -1,0 +1,93 @@
+html {
+    height: 100%;
+    overflow: scroll;
+}
+body {
+    background-image: url(https://www.worldatlas.com/upload/a7/5e/2c/shutterstock-1072403777.jpg);
+   position: absolute;
+  }
+
+#container {
+    justify-content: space-around;
+    border: solid rgb(39, 38, 38);
+    border-radius: 5%;
+    height: 800px;
+    width: 650px;
+    background-color: gray;
+    margin-left: 75%;
+    margin-top: 10%;
+}
+#blocks {
+    position: absolute;
+    align-items: center;
+    width: 75%;
+    height:max-content;
+    margin-left: 20%;
+    margin-top: 7%;
+}
+#blocks > block {
+    display: inline-block;
+    width: 100px;
+    height: 60px;
+    background-color:rgb(184, 184, 188);
+    margin: 5px;
+    text-align: center;
+    border: solid black;
+}
+
+button {
+    background-color: #0c80f3;
+    border: 6px solid #0ff166;
+    border-radius: 10px;
+    width: 150px;
+
+}
+#title {
+    position: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black;
+    background-color: white;
+    color: rgb(129, 213, 234);
+    position: flex;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 18%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    font-weight: bolder;
+    width: 400px;
+    height: 100px;
+}
+.sideBtn {
+    display:;
+    width: 100px;
+    height: 60px;
+    background-color:rgb(184, 184, 188);
+    margin: 5px;
+    text-align: center;
+    border: solid black;
+}
+
+#total {
+    padding-bottom: 5%;
+}
+#form {
+    margin-top: 5%;
+}
+#root {
+    border: solid rgb(21, 21, 21);
+    border-width: 5px;
+    border-radius:5%;
+    width: 455px;
+    height: 300px;
+    padding-bottom: 5%;
+    margin-left: 14%;
+    margin-top:0;
+    margin-right: 20%;
+    background-color: dodgerblue;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    opacity: .76;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+}

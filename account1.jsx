@@ -1,4 +1,4 @@
-// this keeps a running total of deposits and withdrawals
+// this keeps a running total of deposits and withdrawals\
 const ATMDeposit = ({ onChange, isDeposit }) => {
   const choice = ["Deposit", "Withdrawal"];
   return (
@@ -27,7 +27,7 @@ const Account = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} id="form">
       <h2 id="total">{status}</h2>
       <button onClick={()=>setIsDeposit(true)}>Deposit</button>
       <button onClick={()=>setIsDeposit(false)}>Withdrawal</button>
