@@ -1,3 +1,5 @@
 # ATM-Machine
 Simple React ATM
-<img src="./atm.png" />
+<br>
+<br>
+<img src="/atm.png" width="500" height="500" />
